@@ -5,8 +5,8 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-console.log("Welcome to my node.js version of Jokempo!");
-console.log("type which option you want to select");
+console.log("Welcome to my node.js version of Jokenpo!");
+console.log("Type which option you want to select");
 var playAgain = function() {
     rl.question('Play again? (y/n) ', answer => {
         const options = {
