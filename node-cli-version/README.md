@@ -8,7 +8,7 @@ These instructions will help you running it on your local machine.
 
 ### Running the game
 
-Run it with npm script
+Run it using npm "start" script
 
 ```
 npm start
