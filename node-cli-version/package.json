@@ -1,0 +1,11 @@
+{
+  "name": "node-cli-version",
+  "version": "1.0.0",
+  "description": "CLI version of Jokempo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Menezes",
+  "license": "ISC"
+}
