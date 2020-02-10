@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 
 console.log("Welcome to my node.js version of Jokenpo!");
 console.log("Type which option you want to select");
-var playAgain = function() {
+var playAgain = () => {
     rl.question('Play again? (y/n) ', answer => {
         const options = {
             y: 1,
@@ -23,7 +23,7 @@ var playAgain = function() {
     })
 }
 
-var recursiveQuestion = function() {
+var recursiveQuestion = () => {
     rl.question('Select your option: rock, paper or scissor? ', answer => {
     const options = {
         rock: 1,
@@ -66,3 +66,5 @@ var recursiveQuestion = function() {
 });
 }
 recursiveQuestion();
+
+exports.recursiveQuestion = recursiveQuestion();
